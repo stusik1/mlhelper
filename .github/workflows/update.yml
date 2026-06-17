@@ -1,0 +1,33 @@
+name: Daily data update
+
+# Runs the updater every day and commits any changes back to the repo.
+on:
+  schedule:
+    - cron: "0 6 * * *"   # every day at 06:00 UTC (change to your timezone if you like)
+  workflow_dispatch: {}   # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write          # allow the job to push the updated data.js
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the updater
+        run: python scripts/update_data.py
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          git commit -m "Daily data update" || echo "Nothing changed today."
+          git push

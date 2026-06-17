@@ -1,0 +1,182 @@
+/* ML Counter Helper — mobile-first dark theme */
+
+:root {
+  --bg: #0e1320;
+  --bg-2: #131a2b;
+  --card: #1b2540;
+  --card-2: #22305a;
+  --text: #e8edf7;
+  --muted: #8b97b4;
+  --line: #2a3658;
+  --accent: #f5c451;
+  --radius: 16px;
+
+  --marksman: #f0a93b;
+  --assassin: #e0556b;
+  --mage: #9b6cf0;
+  --fighter: #e8784a;
+  --tank: #4da3ff;
+  --support: #3fc78a;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(900px 500px at 50% -10%, #1d2747 0%, rgba(29,39,71,0) 60%),
+    var(--bg);
+  min-height: 100vh;
+  line-height: 1.5;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+header {
+  text-align: center;
+  padding: 22px 16px 8px;
+}
+header h1 { font-size: 1.5rem; letter-spacing: 0.3px; }
+header .sub { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+
+main { max-width: 680px; margin: 0 auto; padding: 0 14px 40px; }
+
+/* search */
+#search-bar { position: sticky; top: 0; z-index: 5; padding: 10px 0;
+  background: linear-gradient(var(--bg) 70%, rgba(14,19,32,0)); }
+#search {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  outline: none;
+}
+#search:focus { border-color: var(--accent); }
+#search::placeholder { color: var(--muted); }
+
+/* role filter chips */
+#filters {
+  display: flex; gap: 8px; overflow-x: auto;
+  padding: 4px 2px 12px; scrollbar-width: none;
+}
+#filters::-webkit-scrollbar { display: none; }
+.chip {
+  flex: 0 0 auto;
+  padding: 7px 14px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip.active { color: #1a1205; background: var(--accent); border-color: var(--accent); font-weight: 600; }
+
+/* hero grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  gap: 10px;
+}
+.hero-card {
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  padding: 14px 8px;
+  color: var(--text);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--muted);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.15s ease;
+  text-align: center;
+}
+.hero-card:active { transform: scale(0.97); }
+.hero-card:hover { background: var(--card-2); }
+.hero-emoji { font-size: 1.7rem; }
+.hero-emoji.big { font-size: 2.6rem; }
+.hero-name { font-weight: 600; font-size: 0.95rem; }
+.hero-role { font-size: 0.72rem; color: var(--muted); }
+
+/* role accent colors on the left border */
+.role-marksman { border-left-color: var(--marksman); }
+.role-assassin { border-left-color: var(--assassin); }
+.role-mage     { border-left-color: var(--mage); }
+.role-fighter  { border-left-color: var(--fighter); }
+.role-tank     { border-left-color: var(--tank); }
+.role-support  { border-left-color: var(--support); }
+
+/* detail view */
+.back {
+  display: inline-block; margin: 4px 0 12px;
+  padding: 8px 14px; font-size: 0.9rem;
+  color: var(--text); background: var(--card);
+  border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
+}
+.detail-header {
+  display: flex; align-items: center; gap: 14px;
+  padding: 16px; margin-bottom: 12px;
+  background: var(--card); border: 1px solid var(--line);
+  border-left: 5px solid var(--muted); border-radius: var(--radius);
+}
+.detail-header h2 { font-size: 1.25rem; }
+
+.vs-tip {
+  padding: 14px 16px; margin-bottom: 18px;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: var(--radius); font-size: 0.95rem;
+}
+.vs-tip strong { color: var(--accent); }
+
+h3 { font-size: 1.05rem; margin: 6px 0 10px; }
+h4 { font-size: 0.9rem; color: var(--muted); margin-bottom: 8px; font-weight: 600; }
+
+/* counter cards (expandable) */
+.counter {
+  background: var(--card); border: 1px solid var(--line);
+  border-left: 4px solid var(--muted); border-radius: var(--radius);
+  margin-bottom: 10px; overflow: hidden;
+}
+.counter-head {
+  width: 100%; display: flex; align-items: center; gap: 10px;
+  padding: 13px 14px; background: none; border: none; color: var(--text);
+  cursor: pointer; font-size: 1rem; text-align: left;
+}
+.counter-head .hero-name { flex: 0 0 auto; }
+.counter-head .hero-role { flex: 1; }
+.counter-head .chev { color: var(--muted); transition: transform 0.18s ease; }
+.counter.open .counter-head .chev { transform: rotate(180deg); }
+.counter-body { padding: 0 14px 14px; }
+.counter-body.hidden { display: none; }
+
+/* build block */
+.build-items { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 10px; }
+.item {
+  padding: 6px 11px; font-size: 0.82rem;
+  background: var(--card-2); border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.item:first-child { border-color: var(--accent); color: var(--accent); }
+.build-note { font-size: 0.85rem; color: var(--muted); }
+
+/* enemy's own build (collapsible) */
+.own-build {
+  margin-top: 16px; padding: 14px 16px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.own-build summary { cursor: pointer; font-weight: 600; }
+.own-build .build { margin-top: 12px; }
+
+.empty { text-align: center; color: var(--muted); padding: 40px 10px; }
+
+footer {
+  max-width: 680px; margin: 0 auto; padding: 20px 18px 30px;
+  text-align: center; color: var(--muted); font-size: 0.78rem;
+}
+#updated { display: block; margin-bottom: 6px; color: var(--accent); }
+.disclaimer { opacity: 0.8; }

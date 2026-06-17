@@ -1,0 +1,7 @@
+# Local editor / tooling — not needed on GitHub
+.claude/
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
