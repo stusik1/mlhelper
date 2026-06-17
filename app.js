@@ -23,8 +23,18 @@
   const els = {
     tabMatchup:   document.getElementById("tab-matchup"),
     tabCounter:   document.getElementById("tab-counter"),
+    tabBestpick:  document.getElementById("tab-bestpick"),
     viewMatchup:  document.getElementById("view-matchup"),
     viewCounter:  document.getElementById("view-counter"),
+    viewBestpick: document.getElementById("view-bestpick"),
+    bpStep1:         document.getElementById("bp-step1"),
+    bpStep2:         document.getElementById("bp-step2"),
+    bpStep3:         document.getElementById("bp-step3"),
+    searchBp:        document.getElementById("search-bp"),
+    filtersBp:       document.getElementById("filters-bp"),
+    gridBp:          document.getElementById("grid-bp"),
+    bpRecommendations: document.getElementById("bp-recommendations"),
+    bpMatchup:       document.getElementById("bp-matchup"),
 
     // matchup flow
     step1:        document.getElementById("step1"),
@@ -51,7 +61,7 @@
 
   // ── App state ─────────────────────────────────────────────────────────────
   const state = {
-    tab: "matchup",        // "matchup" | "counter"
+    tab: "matchup",        // "matchup" | "counter" | "bestpick"
     myHero: null,          // hero object I'm playing
     enemyHero: null,       // hero object I'm facing
     searchMe: "",
@@ -64,6 +74,11 @@
     step: 1,
     // counter finder: null = list, string = detail view
     counterDetailId: null,
+    // best pick tab
+    bpEnemy: null,
+    bpMyPick: null,
+    searchBp: "",
+    roleBp: "All",
   };
 
   // ── Utility ───────────────────────────────────────────────────────────────
@@ -364,9 +379,7 @@
     });
   }
 
-  function renderStep3() {
-    const me = state.myHero;
-    const enemy = state.enemyHero;
+  function matchupResultHTML(me, enemy) {
     const matchup = getMatchup(me, enemy);
 
     const keyBadges = matchup.keyItems.length
@@ -385,8 +398,7 @@
       '<li class="tip-item">' + t + "</li>"
     ).join("");
 
-    els.matchupResult.innerHTML =
-      // Header
+    return (
       '<div class="matchup-header">' +
         '<div class="matchup-side me ' + roleClass(me.role) + '">' +
           heroAvatarHTML(me, "hero-portrait big") +
@@ -400,27 +412,24 @@
           '<span class="matchup-role">' + enemy.role + "</span>" +
         "</div>" +
       "</div>" +
-
-      // Key items callout
       (keyBadges ? '<div class="section">' + keyBadges + "</div>" : "") +
-
-      // Build
       '<div class="section">' +
         '<h3>⚔️ Your build as ' + me.name + ' vs ' + enemy.name + '</h3>' +
         buildBlockHTML(matchup.boots, matchup.items, matchup.baseNote) +
       "</div>" +
-
-      // Tips
       '<div class="section">' +
         '<h3>📋 How to win this matchup</h3>' +
         '<ul class="tip-list">' + tipsHTML + "</ul>" +
       "</div>" +
-
-      // Enemy warning
       '<div class="section warning-box">' +
         '<h3>⚠️ Watch out for ' + enemy.name + '</h3>' +
         '<p>' + (enemy.vsTip || "Play carefully and don't underestimate them.") + "</p>" +
-      "</div>";
+      "</div>"
+    );
+  }
+
+  function renderStep3() {
+    els.matchupResult.innerHTML = matchupResultHTML(state.myHero, state.enemyHero);
   }
 
   // ═════════════════════════════════════════════════════════════════════════
@@ -496,20 +505,103 @@
   }
 
   // ═════════════════════════════════════════════════════════════════════════
+  //  RENDER — BEST PICK TAB
+  // ═════════════════════════════════════════════════════════════════════════
+  function renderBpStep1() {
+    els.bpStep1.hidden = false;
+    els.bpStep2.hidden = true;
+    els.bpStep3.hidden = true;
+    renderChips(els.filtersBp, state.roleBp, role => {
+      state.roleBp = role;
+      renderBpStep1();
+    });
+    const list = filterHeroes(state.searchBp, state.roleBp);
+    els.gridBp.innerHTML = makeGrid(list);
+    bindGrid(els.gridBp, hero => {
+      state.bpEnemy = hero;
+      renderBpStep2();
+    });
+  }
+
+  function renderBpStep2() {
+    els.bpStep1.hidden = true;
+    els.bpStep2.hidden = false;
+    els.bpStep3.hidden = true;
+
+    const h = state.bpEnemy;
+    const counterHeroes = (h.counters || []).map(id => byId[id]).filter(Boolean);
+
+    let html =
+      '<button class="back" id="bp-back2">← Pick different enemy</button>' +
+      '<div class="detail-header ' + roleClass(h.role) + '">' +
+        heroAvatarHTML(h, "hero-portrait big") +
+        '<div><h2>Enemy: ' + h.name + "</h2>" +
+          '<span class="hero-role">' + h.role + "</span></div>" +
+      "</div>";
+
+    if (counterHeroes.length === 0) {
+      html += '<p class="empty">No counter data for ' + h.name + ' yet.</p>';
+    } else {
+      html +=
+        '<div class="vs-tip">' + (h.vsTip || "") + "</div>" +
+        '<h3>⚡ Best picks against ' + h.name + ":</h3>" +
+        '<p class="view-sub" style="margin-bottom:12px">Tap a hero to see their build and tips</p>' +
+        '<div class="grid">';
+      counterHeroes.forEach(c => {
+        html +=
+          '<button class="hero-card ' + roleClass(c.role) + '" data-id="' + c.id + '">' +
+            heroAvatarHTML(c, "hero-portrait") +
+            '<span class="hero-name">' + c.name + "</span>" +
+            '<span class="hero-role">' + c.role + "</span>" +
+          "</button>";
+      });
+      html += "</div>";
+    }
+
+    els.bpRecommendations.innerHTML = html;
+
+    document.getElementById("bp-back2").addEventListener("click", () => {
+      state.bpEnemy = null;
+      renderBpStep1();
+    });
+
+    bindGrid(els.bpRecommendations, counter => {
+      state.bpMyPick = counter;
+      renderBpStep3();
+    });
+  }
+
+  function renderBpStep3() {
+    els.bpStep1.hidden = true;
+    els.bpStep2.hidden = true;
+    els.bpStep3.hidden = false;
+
+    els.bpMatchup.innerHTML =
+      '<button class="back" id="bp-back3">← Back to picks</button>' +
+      matchupResultHTML(state.bpMyPick, state.bpEnemy);
+
+    document.getElementById("bp-back3").addEventListener("click", renderBpStep2);
+  }
+
+  // ═════════════════════════════════════════════════════════════════════════
   //  TAB SWITCHING
   // ═════════════════════════════════════════════════════════════════════════
   function switchTab(tab) {
     state.tab = tab;
-    els.tabMatchup.classList.toggle("active", tab === "matchup");
-    els.tabCounter.classList.toggle("active", tab === "counter");
-    els.viewMatchup.hidden = tab !== "matchup";
-    els.viewCounter.hidden = tab !== "counter";
-    if (tab === "counter") renderCounterList();
+    els.tabMatchup.classList.toggle("active",   tab === "matchup");
+    els.tabCounter.classList.toggle("active",   tab === "counter");
+    els.tabBestpick.classList.toggle("active",  tab === "bestpick");
+    els.viewMatchup.hidden  = tab !== "matchup";
+    els.viewCounter.hidden  = tab !== "counter";
+    els.viewBestpick.hidden = tab !== "bestpick";
+    if (tab === "counter")  renderCounterList();
+    if (tab === "bestpick") renderBpStep1();
   }
 
   // ── Wire up events ────────────────────────────────────────────────────────
-  els.tabMatchup.addEventListener("click", () => switchTab("matchup"));
-  els.tabCounter.addEventListener("click", () => switchTab("counter"));
+  els.tabMatchup.addEventListener("click",  () => switchTab("matchup"));
+  els.tabCounter.addEventListener("click",  () => switchTab("counter"));
+  els.tabBestpick.addEventListener("click", () => switchTab("bestpick"));
 
   els.btnBack1.addEventListener("click", () => showStep(1));
   els.btnBack2.addEventListener("click", () => {
@@ -523,6 +615,11 @@
     state.searchCounter = e.target.value;
     state.counterDetailId = null;
     renderCounterList();
+  });
+
+  els.searchBp.addEventListener("input", e => {
+    state.searchBp = e.target.value;
+    renderBpStep1();
   });
 
   // ── Init ──────────────────────────────────────────────────────────────────
