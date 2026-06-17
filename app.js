@@ -82,11 +82,20 @@
     );
   }
 
+  function fuzzyMatch(q, name) {
+    if (name.includes(q)) return true;
+    // Allow 1 wrong/extra character at the end (e.g. "hanabe" → "hanabi")
+    if (q.length >= 4 && name.includes(q.slice(0, -1))) return true;
+    // Allow 2 wrong/extra characters at the end (e.g. "hanabee" → "hanabi")
+    if (q.length >= 6 && name.includes(q.slice(0, -2))) return true;
+    return false;
+  }
+
   function filterHeroes(search, role) {
     const q = search.trim().toLowerCase();
     return heroes.filter(h =>
       (role === "All" || h.role === role) &&
-      (!q || h.name.toLowerCase().includes(q))
+      (!q || fuzzyMatch(q, h.name.toLowerCase()))
     );
   }
 
