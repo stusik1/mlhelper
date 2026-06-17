@@ -14,9 +14,8 @@
 
   <!-- Tab bar -->
   <nav class="tabs">
-    <button id="tab-matchup" class="tab active">🎯 Matchup</button>
-    <button id="tab-counter" class="tab">🔍 Counters</button>
-    <button id="tab-bestpick" class="tab">⚡ Best Pick</button>
+    <button id="tab-matchup" class="tab active">🎯 Matchup Build</button>
+    <button id="tab-counter" class="tab">🔍 Counter Finder</button>
   </nav>
 
   <main>
@@ -74,34 +73,6 @@
       </div>
       <div id="filters-counter" class="filters"></div>
       <div id="counter-content"></div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════
-         VIEW C — BEST PICK (enemy picked → who should I play?)
-    ═══════════════════════════════════════════════ -->
-    <div id="view-bestpick" hidden>
-
-      <!-- Step 1: pick the enemy hero -->
-      <div id="bp-step1">
-        <p class="view-sub">Who did the enemy pick? Select their hero below.</p>
-        <div class="search-bar">
-          <input id="search-bp" type="text" inputmode="search"
-                 placeholder="🔍  Search enemy hero…" autocomplete="off">
-        </div>
-        <div id="filters-bp" class="filters"></div>
-        <div id="grid-bp"></div>
-      </div>
-
-      <!-- Step 2: recommended counter picks -->
-      <div id="bp-step2" hidden>
-        <div id="bp-recommendations"></div>
-      </div>
-
-      <!-- Step 3: full matchup build for chosen counter vs enemy -->
-      <div id="bp-step3" hidden>
-        <div id="bp-matchup"></div>
-      </div>
-
     </div>
 
   </main>
