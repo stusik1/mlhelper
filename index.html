@@ -10,20 +10,76 @@
 <body>
   <header>
     <h1>⚔️ ML Counter Helper</h1>
-    <p class="sub">Type the enemy hero → see who counters them + the build</p>
   </header>
 
+  <!-- Tab bar -->
+  <nav class="tabs">
+    <button id="tab-matchup" class="tab active">🎯 Matchup Build</button>
+    <button id="tab-counter" class="tab">🔍 Counter Finder</button>
+  </nav>
+
   <main>
-    <div id="search-bar">
-      <input id="search" type="text" inputmode="search" placeholder="🔍  Search enemy hero…" autocomplete="off">
+
+    <!-- ══════════════════════════════════════════════
+         VIEW A — MATCHUP BUILD (pick me → pick enemy → result)
+    ═══════════════════════════════════════════════ -->
+    <div id="view-matchup">
+
+      <!-- Step 1: Pick YOUR hero -->
+      <div id="step1">
+        <div class="step-header">
+          <span class="step-num">1</span>
+          <span class="step-title">Who are <strong>YOU</strong> playing?</span>
+        </div>
+        <div id="search-bar-me" class="search-bar">
+          <input id="search-me" type="text" inputmode="search"
+                 placeholder="🔍  Search your hero…" autocomplete="off">
+        </div>
+        <div id="filters-me" class="filters"></div>
+        <div id="grid-me"></div>
+      </div>
+
+      <!-- Step 2: Pick ENEMY hero -->
+      <div id="step2" hidden>
+        <div class="step-header">
+          <button id="btn-back1" class="back-inline">← Back</button>
+          <span class="step-num">2</span>
+          <span class="step-title">You picked <span id="me-label"></span> — now who is your <strong>lane enemy</strong>?</span>
+        </div>
+        <div class="search-bar">
+          <input id="search-enemy" type="text" inputmode="search"
+                 placeholder="🔍  Search enemy hero…" autocomplete="off">
+        </div>
+        <div id="filters-enemy" class="filters"></div>
+        <div id="grid-enemy"></div>
+      </div>
+
+      <!-- Step 3: Matchup result -->
+      <div id="step3" hidden>
+        <button id="btn-back2" class="back">← Pick different heroes</button>
+        <div id="matchup-result"></div>
+      </div>
+
     </div>
-    <div id="filters"></div>
-    <div id="content"></div>
+
+    <!-- ══════════════════════════════════════════════
+         VIEW B — COUNTER FINDER (tap enemy → see who counters them)
+    ═══════════════════════════════════════════════ -->
+    <div id="view-counter" hidden>
+      <p class="view-sub">Tap an enemy hero to see who counters them.</p>
+      <div class="search-bar">
+        <input id="search-counter" type="text" inputmode="search"
+               placeholder="🔍  Search enemy hero…" autocomplete="off">
+      </div>
+      <div id="filters-counter" class="filters"></div>
+      <div id="counter-content"></div>
+    </div>
+
   </main>
 
   <footer>
     <span id="updated"></span>
-    <p class="disclaimer">Counters are general guidance for laning/draft. Builds refresh automatically once the daily updater is connected.</p>
+    <p class="disclaimer">Builds are general guidance — skill and teamwork decide the match.</p>
   </footer>
 
   <script src="data.js"></script>

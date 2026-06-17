@@ -1,20 +1,9 @@
 #!/usr/bin/env python3
 """
-ML Counter Helper - dataset builder (run this to get the FULL hero roster).
-
-What it does:
-  - Loads the current data.js (keeps every hero already in there, including the
-    hand-written detailed ones).
-  - Adds every other Mobile Legends hero from the ROSTER below, giving each a
-    sensible role-based build + counters so nothing is empty.
-  - Writes data.js back out with all heroes, sorted by name.
-
-Run it whenever you want to (re)generate the roster:
+ML Counter Helper - dataset builder.
+Run this any time to rebuild data.js with all 126 heroes + matchup tags.
 
     python scripts/build_dataset.py
-
-A brand-new hero released after this was written? Add one line to ROSTER
-(e.g.  ("NewHero", "Fighter"),) and run it again.
 """
 
 import datetime
@@ -27,10 +16,6 @@ DATA_FILE = ROOT / "data.js"
 PREFIX = "window.MLBB_DATA ="
 SUFFIX = ";"
 
-# ---------------------------------------------------------------------------
-# The full hero roster: (Hero Name, Primary Role)
-# Roles: Marksman / Assassin / Mage / Fighter / Tank / Support
-# ---------------------------------------------------------------------------
 ROSTER = [
     # --- Tanks ---
     ("Akai", "Tank"), ("Atlas", "Tank"), ("Baxia", "Tank"), ("Belerick", "Tank"),
@@ -86,7 +71,75 @@ ROLE_EMOJI = {
     "Fighter": "⚔️", "Tank": "🛡️", "Support": "💫",
 }
 
-# Default builds per role (used for heroes that don't have a hand-written one).
+# Tags describe what the hero DOES so the matchup engine can give smart advice.
+# dmg: what kind of damage they deal (physical / magic / mixed / true)
+# cc:  how much crowd-control they have (none / low / high)
+# mobility: how mobile they are (low / medium / high)
+# style: their main style (burst / sustain / poke / tank / support)
+ROLE_TAGS = {
+    "Marksman": {"dmg": "physical", "cc": "low",  "mobility": "low",    "style": "poke"},
+    "Assassin": {"dmg": "physical", "cc": "low",  "mobility": "high",   "style": "burst"},
+    "Mage":     {"dmg": "magic",    "cc": "low",  "mobility": "low",    "style": "burst"},
+    "Fighter":  {"dmg": "physical", "cc": "low",  "mobility": "medium", "style": "sustain"},
+    "Tank":     {"dmg": "physical", "cc": "high", "mobility": "low",    "style": "tank"},
+    "Support":  {"dmg": "magic",    "cc": "medium","mobility": "low",   "style": "support"},
+}
+
+# Per-hero overrides for anything that differs from their role default.
+HERO_TAGS = {
+    "franco":     {"cc": "high", "style": "tank"},
+    "tigreal":    {"cc": "high", "style": "tank"},
+    "khufra":     {"cc": "high", "mobility": "medium"},
+    "atlas":      {"cc": "high"},
+    "akai":       {"cc": "high"},
+    "lolita":     {"cc": "high"},
+    "minotaur":   {"cc": "high"},
+    "johnson":    {"cc": "high", "mobility": "medium"},
+    "gatotkaca":  {"cc": "high"},
+    "badang":     {"cc": "high"},
+    "minsitthar": {"cc": "high"},
+    "kaja":       {"cc": "high"},
+    "eudora":     {"cc": "high"},
+    "aurora":     {"cc": "high"},
+    "nana":       {"cc": "high"},
+    "odette":     {"cc": "high"},
+    "luo-yi":     {"cc": "high"},
+    "selena":     {"cc": "high"},
+    "chou":       {"cc": "high", "mobility": "high"},
+    "ruby":       {"cc": "high", "style": "sustain"},
+    "fanny":      {"mobility": "high"},
+    "ling":       {"mobility": "high"},
+    "lancelot":   {"mobility": "high"},
+    "hayabusa":   {"mobility": "high"},
+    "gusion":     {"mobility": "high"},
+    "benedetta":  {"mobility": "high"},
+    "joy":        {"mobility": "high"},
+    "harith":     {"mobility": "high"},
+    "mathilda":   {"mobility": "high"},
+    "wanwan":     {"mobility": "high"},
+    "esmeralda":  {"dmg": "magic", "style": "sustain"},
+    "kagura":     {"cc": "medium"},
+    "valir":      {"cc": "medium", "style": "poke"},
+    "alice":      {"style": "sustain"},
+    "alucard":    {"style": "sustain"},
+    "yu-zhong":   {"style": "sustain"},
+    "uranus":     {"style": "sustain", "dmg": "mixed"},
+    "masha":      {"style": "sustain"},
+    "thamuz":     {"style": "sustain"},
+    "kimmy":      {"dmg": "mixed"},
+    "natan":      {"dmg": "mixed"},
+    "roger":      {"dmg": "mixed"},
+    "karrie":     {"dmg": "true"},
+    "argus":      {"style": "sustain"},
+    "helcurt":    {"cc": "high"},
+    "diggie":     {"cc": "medium"},
+    "carmilla":   {"cc": "medium"},
+    "rafaela":    {"cc": "medium"},
+    "estes":      {"style": "support", "cc": "low"},
+    "floryn":     {"style": "support"},
+    "angela":     {"style": "support"},
+}
+
 ROLE_BUILD = {
     "Marksman": {
         "boots": "Swift Boots",
@@ -96,7 +149,7 @@ ROLE_BUILD = {
     "Assassin": {
         "boots": "Tough Boots",
         "items": ["Hunter Strike", "Blade of Despair", "Endless Battle", "Malefic Roar", "Immortality"],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team.",
+        "note": "Wait for the enemy carry to be exposed, burst them down, then get out.",
     },
     "Mage": {
         "boots": "Magic Shoes",
@@ -120,23 +173,22 @@ ROLE_BUILD = {
     },
 }
 
-# Who is generally good against each role (these hero ids all exist in the roster).
 ROLE_COUNTERS = {
     "Marksman": ["saber", "fanny", "lancelot", "gusion", "hayabusa"],
-    "Mage": ["fanny", "ling", "lancelot", "saber", "gusion"],
+    "Mage":     ["fanny", "ling", "lancelot", "saber", "gusion"],
     "Assassin": ["khufra", "franco", "kaja", "tigreal", "akai"],
-    "Fighter": ["khufra", "franco", "valir", "eudora", "diggie"],
-    "Tank": ["granger", "lesley", "valir", "karrie", "kimmy"],
-    "Support": ["fanny", "gusion", "ling", "lancelot", "saber"],
+    "Fighter":  ["khufra", "franco", "valir", "eudora", "diggie"],
+    "Tank":     ["granger", "lesley", "valir", "karrie", "kimmy"],
+    "Support":  ["fanny", "gusion", "ling", "lancelot", "saber"],
 }
 
 ROLE_VSTIP = {
-    "Marksman": "Squishy with little or no escape — dive them with an assassin or lock them with CC and they fall fast. Don't let them free-hit from the backline.",
-    "Assassin": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
-    "Mage": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
-    "Fighter": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
-    "Tank": "Hard to kill but low damage — don't waste burst on them. Poke them down, bring anti-heal, and focus the carry behind them.",
-    "Support": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
+    "Marksman": "Squishy with little escape — dive them with an assassin or lock them with CC and they fall fast.",
+    "Assassin": "Lives on mobility and burst. Hard CC stops them cold. Group up so they can't catch you alone.",
+    "Mage": "Big burst from range but fragile. Dodge their skill-shots, then gap-close while they're on cooldown.",
+    "Fighter": "Strong in long fights. Kite them with slows and poke — don't duel them straight up.",
+    "Tank": "Hard to kill but low damage. Ignore them, focus the carry, and bring penetration items.",
+    "Support": "Keeps their team alive. Dive past them to kill the carry, or assassinate them first if out of position.",
 }
 
 
@@ -159,18 +211,25 @@ def save_data(data):
     DATA_FILE.write_text(PREFIX + "\n" + body + "\n" + SUFFIX + "\n", encoding="utf-8")
 
 
+def make_tags(role, hid):
+    tags = dict(ROLE_TAGS[role])
+    tags.update(HERO_TAGS.get(hid, {}))
+    return tags
+
+
 def main():
     data = load_data()
     existing = {h["id"]: h for h in data["heroes"]}
-
-    # All hero ids that will exist after this run (used to clean counter lists).
     all_ids = set(existing) | {slug(name) for name, _ in ROSTER}
 
     added = 0
     for name, role in ROSTER:
         hid = slug(name)
+        tags = make_tags(role, hid)
         if hid in existing:
-            continue  # keep the detailed, hand-written entry as-is
+            # Always refresh tags even on detailed heroes so engine stays current.
+            existing[hid]["tags"] = tags
+            continue
         counters = [c for c in ROLE_COUNTERS[role] if c in all_ids and c != hid]
         existing[hid] = {
             "id": hid,
@@ -178,21 +237,24 @@ def main():
             "role": role,
             "emoji": ROLE_EMOJI[role],
             "difficulty": "Medium",
+            "tags": tags,
             "counters": counters,
             "vsTip": ROLE_VSTIP[role],
             "build": ROLE_BUILD[role],
         }
         added += 1
 
-    # Drop counter ids that point to heroes that don't exist (safety).
     for h in existing.values():
+        # Ensure every hero has tags (back-fill any that were hand-written without them).
+        if "tags" not in h:
+            h["tags"] = make_tags(h["role"], h["id"])
         h["counters"] = [c for c in h.get("counters", []) if c in all_ids]
 
     data["heroes"] = sorted(existing.values(), key=lambda h: h["name"].lower())
     data["updated"] = datetime.date.today().isoformat()
     save_data(data)
 
-    print("Total heroes: %d  (added %d new, kept %d detailed)" %
+    print("Total heroes: %d  (added %d new, refreshed %d)" %
           (len(data["heroes"]), added, len(data["heroes"]) - added))
 
 

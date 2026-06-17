@@ -1,6 +1,6 @@
 window.MLBB_DATA =
 {
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "version": "1.0",
   "heroes": [
     {
@@ -27,6 +27,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -52,6 +58,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Ult-pin a key target against a wall and spin them to death. Great vs mobile carries."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -78,6 +90,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -104,6 +122,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "sustain"
       }
     },
     {
@@ -130,6 +154,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -156,6 +186,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -181,6 +217,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Ult onto a diving ally for a free second life. Bind enemies to set up your team."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -207,6 +249,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -233,6 +281,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -259,6 +313,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -285,6 +345,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -311,6 +377,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "high",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -337,6 +409,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -363,6 +441,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -389,6 +473,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -415,6 +505,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -441,6 +537,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -467,6 +569,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -493,6 +601,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -519,6 +633,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -544,6 +664,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Land your kick to build crit chance — it ramps your whole kit."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -570,6 +696,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -596,6 +728,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -622,6 +760,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -648,6 +792,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -673,6 +823,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Use the 3rd S1 dash to enter, kick out a key target, then finish. Time your immunity."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "high",
+        "style": "sustain"
       }
     },
     {
@@ -699,6 +855,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -724,6 +886,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Blink with Dexter to reposition mid-fight. Attack speed > raw damage on him."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -750,6 +918,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -776,6 +950,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -801,6 +981,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Drop ult to cancel enemy CC at the key moment. Place bombs to zone and slow."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -827,6 +1013,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -853,6 +1045,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -878,6 +1076,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Steal shields with S1, then roll in with ult. You're a tanky bruiser, not a glass mage."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "sustain"
       }
     },
     {
@@ -903,6 +1107,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Keep your ult-link on the carry. Fleeting Time lowers your ult cooldown a lot."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -928,6 +1138,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Stun first (passive adds chain damage), then ult — full combo deletes any squishy."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "high",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -954,6 +1170,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Manage your energy — don't cable into a fight you can't cable out of."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -980,6 +1202,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -1006,6 +1234,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -1031,6 +1265,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Land a hook + suppress to delete one enemy. Hook from fog so they can't dodge."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -1057,6 +1297,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1083,6 +1329,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1109,6 +1361,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -1135,6 +1393,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -1161,6 +1425,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -1186,6 +1456,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Aim every shot — his 6th bullet hits hardest. Use the dash to dodge skills, not just to flee."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1212,6 +1488,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -1238,6 +1520,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1263,6 +1551,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Throw daggers, then recall them as you dash for the full combo. Aim for the backline."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1289,6 +1583,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1315,6 +1615,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1340,6 +1646,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Dash through skills with S1 — his ult resets its cooldown, so dash often in fights."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1366,6 +1678,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -1391,6 +1709,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Use shadows to scout and escape. Ult low-HP targets you can finish."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1417,6 +1741,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1443,6 +1773,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -1469,6 +1805,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -1495,6 +1837,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1521,6 +1869,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1547,6 +1901,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1573,6 +1933,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "medium",
+        "style": "tank"
       }
     },
     {
@@ -1599,6 +1965,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1625,6 +1997,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1651,6 +2029,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -1676,6 +2060,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Master separating from your umbrella — the recall combo (S2) is her whole kit."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -1701,6 +2091,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Ult-pull the enemy carry into your team. Build tanky and play the pick game."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "high",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -1726,6 +2122,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Her passive does % true damage — dive the backline and chain resets."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1752,6 +2154,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "true",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1778,6 +2186,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1803,6 +2217,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Bounce-ball mobile heroes into walls, then ult them away from their team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "medium",
+        "style": "tank"
       }
     },
     {
@@ -1829,6 +2249,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "mixed",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1854,6 +2280,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "His dash has i-frames — dodge skills with it, then ult the priority target."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -1880,6 +2312,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1906,6 +2344,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay at max range and farm. Wind of Nature saves you from assassin dives."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1932,6 +2376,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -1957,6 +2407,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Poke from the bushes with your passive, then reposition before they reach you."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -1982,6 +2438,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Stay on walls to dodge skills and regen energy. Ult for crit and immunity windows."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -2008,6 +2470,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -2034,6 +2502,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2060,6 +2534,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2086,6 +2566,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "high",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2112,6 +2598,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2138,6 +2630,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2164,6 +2662,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2190,6 +2694,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "high",
+        "style": "support"
       }
     },
     {
@@ -2216,6 +2726,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -2242,6 +2758,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -2268,6 +2790,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2293,6 +2821,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Use ult to dodge CC, then unload from a safe angle behind your tank."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -2319,6 +2853,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -2345,6 +2885,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "high",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2371,6 +2917,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -2397,6 +2949,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "mixed",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -2423,6 +2981,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -2449,6 +3013,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2475,6 +3045,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "high",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2501,6 +3077,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2527,6 +3109,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2553,6 +3141,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2579,6 +3173,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -2605,6 +3205,12 @@ window.MLBB_DATA =
           "Athena's Shield"
         ],
         "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "support"
       }
     },
     {
@@ -2631,6 +3237,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "mixed",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2656,6 +3268,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pull enemies into your team with ult. Build lifesteal — you heal off every hit."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2681,6 +3299,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Ult the enemy carry — your combo deletes squishies. Don't waste it on tanks."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -2707,6 +3331,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -2733,6 +3363,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2759,6 +3395,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2785,6 +3427,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2811,6 +3459,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2837,6 +3491,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -2862,6 +3522,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Flicker + ult is the classic game-winning combo. Build full tank and start fights."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "high",
+        "mobility": "low",
+        "style": "tank"
       }
     },
     {
@@ -2888,6 +3554,12 @@ window.MLBB_DATA =
           "Blade Armor"
         ],
         "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+      },
+      "tags": {
+        "dmg": "mixed",
+        "cc": "high",
+        "mobility": "low",
+        "style": "sustain"
       }
     },
     {
@@ -2914,6 +3586,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2940,6 +3618,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -2965,6 +3649,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Push assassins away with S2 — it also cleanses your own CC. Poke endlessly with S1."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "medium",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -2991,6 +3681,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -3017,6 +3713,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "poke"
       }
     },
     {
@@ -3043,6 +3745,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -3069,6 +3777,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -3095,6 +3809,12 @@ window.MLBB_DATA =
           "Wind of Nature"
         ],
         "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "low",
+        "style": "poke"
       }
     },
     {
@@ -3121,6 +3841,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "high",
+        "style": "burst"
       }
     },
     {
@@ -3147,6 +3873,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     },
     {
@@ -3173,6 +3905,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -3199,6 +3937,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -3225,6 +3969,12 @@ window.MLBB_DATA =
           "Blood Wings"
         ],
         "note": "Poke from max range and keep your burst ready for when the enemy commits."
+      },
+      "tags": {
+        "dmg": "magic",
+        "cc": "low",
+        "mobility": "low",
+        "style": "burst"
       }
     },
     {
@@ -3250,6 +4000,12 @@ window.MLBB_DATA =
           "Immortality"
         ],
         "note": "Spear-flip squishies away from their team, then ult for attack speed and chase."
+      },
+      "tags": {
+        "dmg": "physical",
+        "cc": "low",
+        "mobility": "medium",
+        "style": "sustain"
       }
     }
   ]
