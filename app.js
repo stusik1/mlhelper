@@ -71,11 +71,21 @@
     return "role-" + role.toLowerCase();
   }
 
+  function itemHTML(name, isBoots) {
+    const imgs = window.ITEM_IMAGES || {};
+    const src  = imgs[name];
+    const img  = src ? '<img class="item-img" src="' + src + '" alt="">' : "";
+    return (
+      '<div class="item' + (isBoots ? " boots" : "") + '">' +
+        img +
+        '<span class="item-name">' + name + "</span>" +
+      "</div>"
+    );
+  }
+
   function buildBlockHTML(boots, items, note) {
-    const all = [boots].concat(items);
-    const tags = all.map((it, i) =>
-      '<span class="item' + (i === 0 ? " boots" : "") + '">' + it + "</span>"
-    ).join("");
+    const tags = itemHTML(boots, true) +
+                 items.map(it => itemHTML(it, false)).join("");
     return (
       '<div class="build-items">' + tags + "</div>" +
       (note ? '<p class="build-note">💡 ' + note + "</p>" : "")
@@ -351,8 +361,13 @@
 
     const keyBadges = matchup.keyItems.length
       ? '<div class="key-items">' +
-          '<span class="key-label">🔑 Key vs ' + enemy.name + ':</span> ' +
-          matchup.keyItems.map(it => '<span class="key-item">' + it + "</span>").join("") +
+          '<span class="key-label">🔑 Priority vs ' + enemy.name + ':</span>' +
+          matchup.keyItems.map(it => {
+            const imgs = window.ITEM_IMAGES || {};
+            const src  = imgs[it];
+            const img  = src ? '<img class="key-img" src="' + src + '" alt="">' : "";
+            return '<span class="key-item">' + img + it + "</span>";
+          }).join("") +
         "</div>"
       : "";
 
