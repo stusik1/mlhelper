@@ -18,15 +18,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Hunter Strike",
-          "Blade of Despair",
-          "Endless Battle",
-          "Malefic Roar",
-          "Immortality"
+          "Genius Wand",
+          "Holy Crystal",
+          "Divine Glaive",
+          "Blood Wings",
+          "Winter Crown"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -52,12 +52,12 @@ window.MLBB_DATA =
         "boots": "Tough Boots",
         "items": [
           "Dominance Ice",
+          "Thunder Belt",
           "Antique Cuirass",
           "Athena's Shield",
-          "Cursed Helmet",
           "Immortality"
         ],
-        "note": "Ult-pin a key target against a wall and spin them to death. Great vs mobile carries."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -81,15 +81,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
+          "War Axe",
+          "Thunder Belt",
           "Blade of Despair",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -113,15 +113,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Tough Boots",
         "items": [
           "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Oracle",
+          "Glowing Wand",
+          "Concentrated Energy",
+          "Antique Cuirass"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -145,15 +145,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Queen's Wings",
+          "Antique Cuirass",
+          "Oracle",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -177,15 +177,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
+          "War Axe",
           "Endless Battle",
-          "Blade of Despair",
+          "Queen's Wings",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -208,15 +208,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Kill her, or focus the hero she attaches to. Assassins on the backline shut her down.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Demon Boots",
         "items": [
-          "Enchanted Talisman",
-          "Oracle",
+          "Flask of the Oasis",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Glowing Wand",
+          "Ice Queen Wand",
+          "Immortality"
         ],
-        "note": "Ult onto a diving ally for a free second life. Bind enemies to set up your team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -240,15 +240,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Swift Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Haas's Claws",
+          "Malefic Roar"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -272,15 +272,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "Thunder Belt",
+          "Hunter Strike",
+          "Dominance Ice",
+          "Oracle",
+          "Queen's Wings"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -304,15 +304,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Hard to kill but low damage — don't waste burst on them. Poke them down, bring anti-heal, and focus the carry behind them.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Rapid Boots",
         "items": [
           "Dominance Ice",
-          "Antique Cuirass",
+          "Fleeting Time",
           "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Antique Cuirass",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -336,15 +336,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "War Axe",
+          "Antique Cuirass",
+          "Rose Gold Meteor",
+          "Queen's Wings",
+          "Malefic Roar"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -368,15 +368,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Glowing Wand",
+          "Blood Wings",
+          "Wishing Lantern",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Holy Crystal"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -400,15 +400,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Corrosion Scythe",
           "Malefic Roar",
-          "Immortality"
+          "Rose Gold Meteor"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -432,15 +432,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Queen's Wings",
+          "Dominance Ice",
+          "Antique Cuirass",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -464,15 +464,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Thunder Belt",
+          "Antique Cuirass",
+          "Guardian Helmet",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -499,12 +499,12 @@ window.MLBB_DATA =
         "boots": "Tough Boots",
         "items": [
           "Dominance Ice",
-          "Antique Cuirass",
           "Athena's Shield",
+          "Antique Cuirass",
           "Immortality",
-          "Blade Armor"
+          "Guardian Helmet"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -530,13 +530,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
           "Blade of Despair",
-          "Hunter Strike",
           "Malefic Roar",
-          "Wind of Nature"
+          "Haas's Claws",
+          "Sea Halberd",
+          "Malefic Gun"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -562,13 +562,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Cursed Helmet",
           "Dominance Ice",
-          "Antique Cuirass",
-          "Athena's Shield",
+          "Oracle",
           "Immortality",
-          "Blade Armor"
+          "Guardian Helmet"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -594,13 +594,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "War Axe",
           "Hunter Strike",
-          "Blade of Despair",
-          "Endless Battle",
           "Malefic Roar",
-          "Immortality"
+          "Queen's Wings",
+          "Blade of the Heptaseas"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -626,13 +626,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
+          "Endless Battle",
           "Blade of Despair",
-          "Hunter Strike",
           "Malefic Roar",
-          "Wind of Nature"
+          "Antique Cuirass",
+          "Immortality"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -657,13 +657,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Demon Hunter Sword",
+          "Haas's Claws",
           "Berserker's Fury",
-          "Corrosion Scythe",
-          "Endless Battle",
-          "Immortality"
+          "Malefic Gun",
+          "Windtalker",
+          "Malefic Roar"
         ],
-        "note": "Land your kick to build crit chance — it ramps your whole kit."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -687,15 +687,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Enchanted Talisman",
-          "Oracle",
+          "Flask of the Oasis",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Dominance Ice",
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -719,15 +719,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Demon Boots",
         "items": [
           "Clock of Destiny",
           "Lightning Truncheon",
-          "Divine Glaive",
           "Holy Crystal",
+          "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -753,13 +753,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
+          "Genius Wand",
           "Holy Crystal",
-          "Blood Wings"
+          "Blood Wings",
+          "Divine Glaive",
+          "Enchanted Talisman"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -783,15 +783,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Enchanted Talisman",
-          "Oracle",
+          "Dominance Ice",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Athena's Shield",
+          "Antique Cuirass",
+          "Immortality"
         ],
-        "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -807,22 +807,23 @@ window.MLBB_DATA =
       "emoji": "🥋",
       "difficulty": "Hard",
       "counters": [
-        "diggie",
-        "kaja",
-        "khufra",
-        "valir"
+        "esmeralda",
+        "lukas",
+        "phoveus",
+        "cyclops",
+        "sun"
       ],
       "vsTip": "Bait his ult kick, then collapse. Ranged pokers keep him out; cleanse the kick if you can.",
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Blade of the Heptaseas",
+          "War Axe",
           "Endless Battle",
-          "Blade of Despair",
-          "Hunter Strike",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Use the 3rd S1 dash to enter, kick out a key target, then finish. Time your immunity."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -848,13 +849,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Warrior Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Antique Cuirass",
+          "Queen's Wings",
+          "Oracle",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -879,13 +880,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Corrosion Scythe",
           "Demon Hunter Sword",
           "Golden Staff",
-          "Windtalker",
+          "Corrosion Scythe",
+          "Hunter Strike",
           "Wind of Nature"
         ],
-        "note": "Blink with Dexter to reposition mid-fight. Attack speed > raw damage on him."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -909,15 +910,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Squishy with little or no escape — dive them with an assassin or lock them with CC and they fall fast. Don't let them free-hit from the backline.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Magic Shoes",
         "items": [
+          "Endless Battle",
           "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
+          "Haas's Claws",
           "Malefic Roar",
-          "Wind of Nature"
+          "Blade of Despair"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -943,13 +944,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Enchanted Talisman",
+          "Concentrated Energy",
+          "Genius Wand",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Glowing Wand"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -974,13 +975,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
+          "Flask of the Oasis",
+          "Fleeting Time",
           "Dominance Ice",
-          "Athena's Shield",
           "Antique Cuirass",
-          "Oracle",
           "Immortality"
         ],
-        "note": "Drop ult to cancel enemy CC at the key moment. Place bombs to zone and slow."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1004,15 +1005,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Blade of the Heptaseas",
+          "Hunter Strike",
+          "Sky Piercer",
+          "Sea Halberd",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1038,13 +1039,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Thunder Belt",
+          "Oracle",
           "Dominance Ice",
-          "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Feather of Heaven",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1060,22 +1061,23 @@ window.MLBB_DATA =
       "emoji": "💎",
       "difficulty": "Medium",
       "counters": [
-        "saber",
-        "lancelot",
-        "valir",
-        "karina"
+        "arlott",
+        "lunox",
+        "karrie",
+        "natan",
+        "atlas"
       ],
       "vsTip": "Her shield eats magic damage — bring physical assassins or true damage to cut through it.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Tough Boots",
         "items": [
           "Enchanted Talisman",
-          "Calamity Reaper",
           "Oracle",
-          "Immortality",
-          "Athena's Shield"
+          "Dominance Ice",
+          "Holy Crystal",
+          "Immortality"
         ],
-        "note": "Steal shields with S1, then roll in with ult. You're a tanky bruiser, not a glass mage."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1098,15 +1100,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Out-burst his heals or bring anti-heal. Better yet, assassinate Estes himself — he's defenseless.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Demon Boots",
         "items": [
-          "Enchanted Talisman",
-          "Oracle",
+          "Flask of the Oasis",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Oracle",
+          "Athena's Shield",
+          "Immortality"
         ],
-        "note": "Keep your ult-link on the carry. Fleeting Time lowers your ult cooldown a lot."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1129,15 +1131,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Bait her stun then go in. Mobile assassins dodge her combo; Wind of Nature negates the burst.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
+          "Genius Wand",
           "Holy Crystal",
-          "Blood Wings"
+          "Divine Glaive",
+          "Blood Wings",
+          "Wishing Lantern"
         ],
-        "note": "Stun first (passive adds chain damage), then ult — full combo deletes any squishy."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1153,23 +1155,23 @@ window.MLBB_DATA =
       "emoji": "🪝",
       "difficulty": "Hard",
       "counters": [
-        "khufra",
         "franco",
-        "kaja",
-        "ruby",
-        "chou"
+        "bruno",
+        "moskov",
+        "badang",
+        "masha"
       ],
       "vsTip": "She lives on her cables. Pick point-and-click CC (hook / suppress) — one stun ends her combo.",
       "build": {
         "boots": "Tough Boots",
         "items": [
-          "Endless Battle",
-          "Blade of Despair",
-          "Hunter Strike",
+          "Blade of the Heptaseas",
           "Malefic Roar",
+          "Hunter Strike",
+          "Blade of Despair",
           "Immortality"
         ],
-        "note": "Manage your energy — don't cable into a fight you can't cable out of."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1193,15 +1195,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Magic Shoes",
         "items": [
           "Enchanted Talisman",
-          "Oracle",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Glowing Wand",
+          "Divine Glaive",
+          "Blood Wings"
         ],
-        "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1225,15 +1227,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Demon Boots",
         "items": [
-          "Enchanted Talisman",
-          "Oracle",
+          "Flask of the Oasis",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Glowing Wand",
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1256,15 +1258,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Dodge his hooks — Wind of Nature / Purify breaks his suppression. Poke him from range.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Rapid Boots",
         "items": [
           "Dominance Ice",
+          "Fleeting Time",
+          "Oracle",
           "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Immortality"
         ],
-        "note": "Land a hook + suppress to delete one enemy. Hook from fog so they can't dodge."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1288,15 +1290,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Cursed Helmet",
+          "Thunder Belt",
+          "Guardian Helmet",
+          "Oracle",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1320,15 +1322,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
+          "Corrosion Scythe",
+          "Berserker's Fury",
           "Endless Battle",
-          "Blade of Despair",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1354,13 +1356,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Cursed Helmet",
+          "Thunder Belt",
           "Dominance Ice",
-          "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1386,13 +1388,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
-          "Dominance Ice",
+          "Cursed Helmet",
+          "Glowing Wand",
+          "Oracle",
           "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1418,13 +1420,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Enchanted Talisman",
+          "Glowing Wand",
+          "Ice Queen Wand",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Holy Crystal"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1440,22 +1442,22 @@ window.MLBB_DATA =
       "emoji": "🎻",
       "difficulty": "Medium",
       "counters": [
-        "chou",
-        "khufra",
-        "franco",
-        "gusion"
+        "fanny",
+        "ling",
+        "uranus",
+        "hilda"
       ],
       "vsTip": "His bullets are skill-shots — dodge them. Engage during his reload, and CC stops his dash escape.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Blade of Despair",
-          "Berserker's Fury",
           "Hunter Strike",
+          "Endless Battle",
+          "Blade of Despair",
           "Malefic Roar",
-          "Wind of Nature"
+          "Rose Gold Meteor"
         ],
-        "note": "Aim every shot — his 6th bullet hits hardest. Use the dash to dodge skills, not just to flee."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1484,10 +1486,10 @@ window.MLBB_DATA =
           "Dominance Ice",
           "Antique Cuirass",
           "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Blade Armor",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1511,15 +1513,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "Concentrated Energy",
+          "Starlium Scythe",
+          "Holy Crystal",
+          "Divine Glaive",
+          "Blood Wings"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1544,13 +1546,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Arcane Boots",
         "items": [
-          "Calamity Reaper",
           "Genius Wand",
-          "Divine Glaive",
           "Holy Crystal",
-          "Blood Wings"
+          "Divine Glaive",
+          "Blood Wings",
+          "Winter Crown"
         ],
-        "note": "Throw daggers, then recall them as you dash for the full combo. Aim for the backline."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1576,13 +1578,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Sea Halberd",
+          "Rose Gold Meteor"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1606,15 +1608,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Swift Boots",
         "items": [
-          "Hunter Strike",
-          "Blade of Despair",
-          "Endless Battle",
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
           "Malefic Roar",
-          "Immortality"
+          "Hunter Strike"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1639,13 +1641,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Calamity Reaper",
-          "Concentrated Energy",
+          "Starlium Scythe",
+          "Feather of Heaven",
           "Holy Crystal",
           "Divine Glaive",
-          "Immortality"
+          "Blood Wings"
         ],
-        "note": "Dash through skills with S1 — his ult resets its cooldown, so dash often in fights."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1669,15 +1671,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
+          "Genius Wand",
+          "Starlium Scythe",
           "Holy Crystal",
-          "Blood Wings"
+          "Divine Glaive",
+          "Winter Crown"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -1700,15 +1702,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "CC him out of his shadow ult. Anti-mobility tanks ruin his pick attempts.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Magic Shoes",
         "items": [
-          "Endless Battle",
-          "Blade of Despair",
           "Hunter Strike",
+          "Blade of the Heptaseas",
+          "Sky Piercer",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Use shadows to scout and escape. Ult low-HP targets you can finish."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1732,15 +1734,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Swift Boots",
         "items": [
-          "Hunter Strike",
-          "Blade of Despair",
+          "Blade of the Heptaseas",
           "Endless Battle",
+          "Hunter Strike",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1766,13 +1768,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Thunder Belt",
           "Dominance Ice",
           "Antique Cuirass",
           "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1798,13 +1800,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Clock of Destiny",
+          "Cursed Helmet",
           "Dominance Ice",
-          "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1830,13 +1832,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
+          "Haas's Claws",
           "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Windtalker",
+          "Malefic Gun",
+          "Blade of Despair"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1862,13 +1864,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
           "Blade of Despair",
-          "Hunter Strike",
           "Malefic Roar",
           "Wind of Nature"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1892,15 +1894,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Rapid Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Dominance Ice",
+          "Oracle",
+          "Antique Cuirass",
+          "Athena's Shield",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1928,11 +1930,11 @@ window.MLBB_DATA =
         "items": [
           "Dominance Ice",
           "Antique Cuirass",
+          "Blade Armor",
           "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1956,15 +1958,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Hunter Strike",
-          "Blade of Despair",
-          "Endless Battle",
-          "Malefic Roar",
-          "Immortality"
+          "Genius Wand",
+          "Starlium Scythe",
+          "Holy Crystal",
+          "Blood Wings",
+          "Divine Glaive"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -1988,15 +1990,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "Genius Wand",
+          "Feather of Heaven",
+          "Divine Glaive",
+          "Holy Crystal",
+          "Winter Crown"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2020,15 +2022,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
           "Lightning Truncheon",
-          "Divine Glaive",
+          "Genius Wand",
           "Holy Crystal",
+          "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2051,15 +2053,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Dodge her umbrella skills. Engage when the umbrella is away from her, and CC her down.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
           "Clock of Destiny",
           "Lightning Truncheon",
+          "Genius Wand",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Holy Crystal"
         ],
-        "note": "Master separating from your umbrella — the recall combo (S2) is her whole kit."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2085,12 +2087,12 @@ window.MLBB_DATA =
         "boots": "Tough Boots",
         "items": [
           "Dominance Ice",
-          "Antique Cuirass",
+          "Fleeting Time",
           "Athena's Shield",
-          "Endless Battle",
+          "Antique Cuirass",
           "Immortality"
         ],
-        "note": "Ult-pull the enemy carry into your team. Build tanky and play the pick game."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2115,13 +2117,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Arcane Boots",
         "items": [
-          "Calamity Reaper",
-          "Hunter Strike",
+          "Starlium Scythe",
           "Genius Wand",
+          "Holy Crystal",
           "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Her passive does % true damage — dive the backline and chain resets."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2147,13 +2149,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
+          "Demon Hunter Sword",
+          "Corrosion Scythe",
+          "Golden Staff",
+          "Malefic Gun",
           "Wind of Nature"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "true",
@@ -2177,15 +2179,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Thunder Belt",
+          "Dominance Ice",
+          "Oracle",
+          "Antique Cuirass",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2210,13 +2212,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Cursed Helmet",
           "Dominance Ice",
           "Antique Cuirass",
           "Athena's Shield",
-          "Cursed Helmet",
           "Immortality"
         ],
-        "note": "Bounce-ball mobile heroes into walls, then ult them away from their team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2240,15 +2242,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Squishy with little or no escape — dive them with an assassin or lock them with CC and they fall fast. Don't let them free-hit from the backline.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Feather of Heaven",
+          "Concentrated Energy",
+          "Holy Crystal",
+          "Divine Glaive",
+          "Blood Wings"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "mixed",
@@ -2273,13 +2275,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "War Axe",
+          "Hunter Strike",
           "Endless Battle",
           "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
           "Immortality"
         ],
-        "note": "His dash has i-frames — dodge skills with it, then ult the priority target."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2303,15 +2305,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Hunter Strike",
+          "Queen's Wings",
+          "Dominance Ice",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2327,23 +2329,23 @@ window.MLBB_DATA =
       "emoji": "🏹",
       "difficulty": "Easy",
       "counters": [
-        "fanny",
-        "saber",
-        "hayabusa",
-        "lancelot",
-        "gusion"
+        "johnson",
+        "atlas",
+        "uranus",
+        "khufra",
+        "sun"
       ],
       "vsTip": "Long range but no escape skill. Dive her with assassins or hook her — she melts the second you reach her.",
       "build": {
         "boots": "Swift Boots",
         "items": [
           "Berserker's Fury",
-          "Scarlet Phantom",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Windtalker",
+          "Great Dragon Spear",
+          "Haas's Claws",
+          "Rose Gold Meteor"
         ],
-        "note": "Stay at max range and farm. Wind of Nature saves you from assassin dives."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2367,15 +2369,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
+          "War Axe",
+          "Hunter Strike",
+          "Antique Cuirass",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2398,15 +2400,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in a straight line. Break her line of sight and gap-close fast — she's weak when revealed up close.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Magic Shoes",
         "items": [
-          "Blade of Despair",
           "Berserker's Fury",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Endless Battle",
+          "Blade of Despair",
+          "Malefic Gun",
+          "Sea Halberd"
         ],
-        "note": "Poke from the bushes with your passive, then reposition before they reach you."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2429,15 +2431,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "He lives on walls. Airborne CC and hooks drop him — group and burst when he comes down.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Blade of Despair",
           "Berserker's Fury",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Immortality"
+          "Haas's Claws",
+          "Endless Battle",
+          "Blade of Despair",
+          "Malefic Roar"
         ],
-        "note": "Stay on walls to dodge skills and regen energy. Ult for crit and immunity windows."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2463,13 +2465,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Thunder Belt",
+          "Flask of the Oasis",
           "Dominance Ice",
-          "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2493,15 +2495,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Hunter Strike",
+          "Queen's Wings",
+          "Oracle",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2525,15 +2527,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
+          "Enchanted Talisman",
+          "Genius Wand",
           "Holy Crystal",
+          "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2557,15 +2559,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Tough Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Enchanted Talisman",
+          "Glowing Wand",
+          "Blood Wings",
+          "Wishing Lantern",
+          "Divine Glaive"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2591,13 +2593,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Enchanted Talisman",
+          "Glowing Wand",
+          "Ice Queen Wand",
           "Divine Glaive",
-          "Holy Crystal",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2621,15 +2623,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
+          "War Axe",
           "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Queen's Wings",
+          "Antique Cuirass",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2655,13 +2657,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Warrior Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Corrosion Scythe",
+          "Thunder Belt",
+          "Queen's Wings",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2685,15 +2687,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Tough Boots",
         "items": [
+          "Flask of the Oasis",
           "Enchanted Talisman",
-          "Oracle",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2719,13 +2721,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
+          "Haas's Claws",
           "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Demon Hunter Sword",
+          "Malefic Gun",
+          "Malefic Roar"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2752,12 +2754,12 @@ window.MLBB_DATA =
         "boots": "Tough Boots",
         "items": [
           "Dominance Ice",
+          "Flask of the Oasis",
+          "Oracle",
           "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2781,15 +2783,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Thunder Belt",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2814,13 +2816,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Corrosion Scythe",
-          "Berserker's Fury",
-          "Scarlet Phantom",
           "Windtalker",
-          "Immortality"
+          "Berserker's Fury",
+          "Haas's Claws",
+          "Malefic Gun",
+          "Wind of Nature"
         ],
-        "note": "Use ult to dodge CC, then unload from a safe angle behind your tank."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2846,13 +2848,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Malefic Gun",
           "Wind of Nature"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2876,15 +2878,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
+          "Genius Wand",
+          "Wishing Lantern",
           "Holy Crystal",
+          "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -2908,15 +2910,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Swift Boots",
         "items": [
-          "Hunter Strike",
-          "Blade of Despair",
+          "Blade of the Heptaseas",
           "Endless Battle",
+          "Hunter Strike",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -2940,15 +2942,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Squishy with little or no escape — dive them with an assassin or lock them with CC and they fall fast. Don't let them free-hit from the backline.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
-          "Wind of Nature"
+          "Feather of Heaven",
+          "Concentrated Energy",
+          "Genius Wand",
+          "Holy Crystal",
+          "Divine Glaive"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "mixed",
@@ -2974,13 +2976,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "Blade of the Heptaseas",
           "Hunter Strike",
-          "Blade of Despair",
-          "Endless Battle",
           "Malefic Roar",
+          "Blade of Despair",
           "Immortality"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3004,15 +3006,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
           "Clock of Destiny",
           "Lightning Truncheon",
+          "Genius Wand",
           "Divine Glaive",
-          "Holy Crystal",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3036,15 +3038,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
           "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
+          "Glowing Wand",
           "Holy Crystal",
+          "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3068,15 +3070,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
+          "Hunter Strike",
+          "War Axe",
+          "Queen's Wings",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3100,7 +3102,7 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
           "Clock of Destiny",
           "Lightning Truncheon",
@@ -3108,7 +3110,7 @@ window.MLBB_DATA =
           "Holy Crystal",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3132,15 +3134,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Queen's Wings",
+          "Antique Cuirass",
+          "Oracle",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3166,13 +3168,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
           "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
+          "Demon Hunter Sword",
+          "Great Dragon Spear",
+          "Malefic Gun",
           "Wind of Nature"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3196,15 +3198,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Keeps their team alive. Dive past them to kill the carry, or burst the support first with an assassin if they're out of position.",
       "build": {
-        "boots": "Arcane Boots",
+        "boots": "Tough Boots",
         "items": [
           "Enchanted Talisman",
-          "Oracle",
+          "Flask of the Oasis",
           "Fleeting Time",
-          "Immortality",
-          "Athena's Shield"
+          "Oracle",
+          "Immortality"
         ],
-        "note": "Stay close to your carry, save them with your skills, and keep key areas warded."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3228,15 +3230,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Swift Boots",
         "items": [
-          "Bloodlust Axe",
+          "Sky Piercer",
+          "Windtalker",
           "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "War Axe",
+          "Malefic Roar"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "mixed",
@@ -3259,15 +3261,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "She sustains with lifesteal — anti-heal hurts. Poke her down and keep spaced from her pull.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
+          "War Axe",
+          "Queen's Wings",
+          "Oracle",
           "Dominance Ice",
-          "Antique Cuirass",
           "Immortality"
         ],
-        "note": "Pull enemies into your team with ult. Build lifesteal — you heal off every hit."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3290,15 +3292,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Save a Wind of Nature or an immune skill for his ult. Group up so he can't pick you off.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Magic Shoes",
         "items": [
-          "Blade of Despair",
           "Hunter Strike",
-          "Endless Battle",
+          "Blade of the Heptaseas",
           "Malefic Roar",
+          "Blade of Despair",
           "Immortality"
         ],
-        "note": "Ult the enemy carry — your combo deletes squishies. Don't waste it on tanks."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3322,15 +3324,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Lives on mobility and burst. Hard CC (stun / suppress / knock-up) stops them cold, and a little armor blunts their combo. Group up so they can't catch you alone.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Arcane Boots",
         "items": [
-          "Hunter Strike",
-          "Blade of Despair",
-          "Endless Battle",
-          "Malefic Roar",
-          "Immortality"
+          "Clock of Destiny",
+          "Lightning Truncheon",
+          "Starlium Scythe",
+          "Divine Glaive",
+          "Holy Crystal"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3354,15 +3356,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Genius Wand",
+          "Concentrated Energy",
+          "Glowing Wand",
+          "Dominance Ice",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3386,15 +3388,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Swift Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Sea Halberd",
+          "Windtalker"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3418,15 +3420,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
+          "Hunter Strike",
+          "War Axe",
+          "Queen's Wings",
           "Blade of Despair",
-          "Malefic Roar",
-          "Immortality"
+          "Malefic Roar"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3450,15 +3452,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Queen's Wings",
+          "Dominance Ice",
+          "Rose Gold Meteor",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3484,13 +3486,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Warrior Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "Corrosion Scythe",
+          "War Axe",
+          "Oracle",
+          "Queen's Wings",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3513,15 +3515,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Dodge his ult flag and don't clump for his combo. Poke him down from range before he engages.",
       "build": {
-        "boots": "Tough Boots",
+        "boots": "Rapid Boots",
         "items": [
           "Dominance Ice",
-          "Antique Cuirass",
+          "Fleeting Time",
           "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Antique Cuirass",
+          "Immortality"
         ],
-        "note": "Flicker + ult is the classic game-winning combo. Build full tank and start fights."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3548,12 +3550,12 @@ window.MLBB_DATA =
         "boots": "Tough Boots",
         "items": [
           "Dominance Ice",
-          "Antique Cuirass",
-          "Athena's Shield",
-          "Immortality",
-          "Blade Armor"
+          "Oracle",
+          "Thunder Belt",
+          "Guardian Helmet",
+          "Immortality"
         ],
-        "note": "Start the fight by locking the enemy carry, then peel for your own damage dealers."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "mixed",
@@ -3577,15 +3579,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
           "Lightning Truncheon",
-          "Divine Glaive",
+          "Genius Wand",
           "Holy Crystal",
+          "Divine Glaive",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3609,15 +3611,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Tough Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Enchanted Talisman",
+          "Glowing Wand",
+          "Blood Wings",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Wishing Lantern"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3640,15 +3642,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "He zones with fire walls. Flank him — assassins jump him easily since he has no dash.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Demon Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Glowing Wand",
+          "Ice Queen Wand",
+          "Genius Wand",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Immortality"
         ],
-        "note": "Push assassins away with S2 — it also cleanses your own CC. Poke endlessly with S1."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3672,15 +3674,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Arcane Boots",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Glowing Wand",
+          "Wishing Lantern",
+          "Blood Wings",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Holy Crystal"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3706,13 +3708,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Swift Boots",
         "items": [
-          "Berserker's Fury",
-          "Blade of Despair",
-          "Hunter Strike",
-          "Malefic Roar",
+          "Corrosion Scythe",
+          "Demon Hunter Sword",
+          "Golden Staff",
+          "Malefic Gun",
           "Wind of Nature"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3736,15 +3738,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Antique Cuirass",
+          "Oracle",
+          "Dominance Ice",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3770,13 +3772,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Enchanted Talisman",
+          "Glowing Wand",
+          "Wishing Lantern",
           "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Holy Crystal"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3800,15 +3802,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Squishy with little or no escape — dive them with an assassin or lock them with CC and they fall fast. Don't let them free-hit from the backline.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Berserker's Fury",
+          "War Axe",
+          "Endless Battle",
           "Blade of Despair",
-          "Hunter Strike",
           "Malefic Roar",
-          "Wind of Nature"
+          "Immortality"
         ],
-        "note": "Stay behind your tank, hit the closest threat, and kite backwards while attacking."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3834,13 +3836,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Tough Boots",
         "items": [
+          "War Axe",
           "Hunter Strike",
           "Blade of Despair",
-          "Endless Battle",
           "Malefic Roar",
           "Immortality"
         ],
-        "note": "Wait for the enemy carry to be exposed, burst them down, then get out. Don't dive the whole team."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3864,15 +3866,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Strong in long fights. Kite them with slows and poke, and don't duel head-on — collapse with your team or out-range them.",
       "build": {
-        "boots": "Warrior Boots",
+        "boots": "Tough Boots",
         "items": [
-          "Bloodlust Axe",
-          "Endless Battle",
-          "Blade of Despair",
-          "Malefic Roar",
+          "War Axe",
+          "Oracle",
+          "Queen's Wings",
+          "Hunter Strike",
           "Immortality"
         ],
-        "note": "Pressure the side lane and join fights from the flank, not head-on into CC."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -3898,13 +3900,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
-          "Lightning Truncheon",
+          "Enchanted Talisman",
+          "Ice Queen Wand",
+          "Glowing Wand",
           "Divine Glaive",
-          "Holy Crystal",
           "Blood Wings"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3930,13 +3932,13 @@ window.MLBB_DATA =
       "build": {
         "boots": "Magic Shoes",
         "items": [
-          "Clock of Destiny",
+          "Glowing Wand",
+          "Genius Wand",
           "Lightning Truncheon",
-          "Divine Glaive",
           "Holy Crystal",
-          "Blood Wings"
+          "Divine Glaive"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3960,15 +3962,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "Big burst from range but fragile. Dodge their skill-shots, then gap-close — assassins punish them while their combo is on cooldown.",
       "build": {
-        "boots": "Magic Shoes",
+        "boots": "Demon Boots",
         "items": [
           "Clock of Destiny",
-          "Lightning Truncheon",
-          "Divine Glaive",
-          "Holy Crystal",
-          "Blood Wings"
+          "Ice Queen Wand",
+          "Glowing Wand",
+          "Wishing Lantern",
+          "Divine Glaive"
         ],
-        "note": "Poke from max range and keep your burst ready for when the enemy commits."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "magic",
@@ -3991,15 +3993,15 @@ window.MLBB_DATA =
       ],
       "vsTip": "CC chains him hard. Tanks with slows kite him — focus him before he snowballs on backliners.",
       "build": {
-        "boots": "Swift Boots",
+        "boots": "Warrior Boots",
         "items": [
           "Endless Battle",
-          "Blade of Despair",
-          "Berserker's Fury",
+          "Demon Hunter Sword",
+          "Great Dragon Spear",
           "Malefic Roar",
-          "Immortality"
+          "Blade of Despair"
         ],
-        "note": "Spear-flip squishies away from their team, then ult for attack speed and chase."
+        "note": "Build from mlbbhub.com (Legend+ data, auto-updated daily)."
       },
       "tags": {
         "dmg": "physical",
@@ -4008,6 +4010,7 @@ window.MLBB_DATA =
         "style": "sustain"
       }
     }
-  ]
+  ],
+  "source": "mlbbhub.com (Legend+ ranked matches)"
 }
 ;

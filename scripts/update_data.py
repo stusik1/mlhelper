@@ -44,36 +44,28 @@ def save_data(data):
 
 def fetch_live_data():
     """
-    MILESTONE 2 (we do this next, together):
-    Pull fresh counters/builds from a live source and return a list of hero
-    dicts in the SAME shape as the "heroes" list in data.js.
-
-    Until that is wired up, return None and we keep the existing hero data.
-
-    Good source options (pick one):
-      - A Google Sheet you maintain  -> publish as CSV, read it here. Easiest,
-        fully legal, and you control the data.
-      - A community stats website    -> scrape it. Powerful, but check the
-        site's Terms of Service / robots.txt first, and it can break when the
-        site changes.
+    Scrapes current meta builds and counters from mlbbhub.com (Legend+ data).
+    Returns True if successful, False if something went wrong.
+    The scraper writes directly to data.js, so we return a flag not a list.
     """
-    return None
+    try:
+        from scripts.scrape_builds import run as scrape_run
+        ok, fail = scrape_run(verbose=False)
+        print("Scraped %d heroes from mlbbhub.com (%d kept existing)" % (len(ok), len(fail)))
+        return True
+    except Exception as e:
+        print("Scraper error: %s  — keeping existing data." % e)
+        return False
 
 
 def main():
+    # scraper writes data.js directly; we reload afterwards to stamp the date
+    success = fetch_live_data()
     data = load_data()
-
-    live = fetch_live_data()
-    if live:
-        data["heroes"] = live
-        print("Merged %d heroes from live source." % len(live))
-    else:
-        print("No live source connected yet - keeping existing %d heroes." %
-              len(data["heroes"]))
-
     data["updated"] = datetime.date.today().isoformat()
     save_data(data)
-    print("Wrote data.js  (updated = %s)" % data["updated"])
+    status = "live scrape OK" if success else "scrape failed, kept existing"
+    print("Wrote data.js  (updated = %s, %s)" % (data["updated"], status))
 
 
 if __name__ == "__main__":

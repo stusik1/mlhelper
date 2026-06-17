@@ -23,19 +23,26 @@ OUT.mkdir(parents=True, exist_ok=True)
 ITEMS = [
     # Boots
     "Swift Boots", "Tough Boots", "Magic Shoes", "Warrior Boots", "Arcane Boots",
+    "Demon Boots", "Rapid Boots",
     # Marksman
     "Berserker's Fury", "Scarlet Phantom", "Blade of Despair", "Malefic Roar",
     "Wind of Nature", "Windtalker", "Corrosion Scythe", "Demon Hunter Sword",
-    "Golden Staff", "Hunter Strike", "Sea Halberd",
+    "Golden Staff", "Hunter Strike", "Sea Halberd", "Haas's Claws",
+    "Rose Gold Meteor", "Queen's Wings", "Sky Piercer",
     # Mage
     "Clock of Destiny", "Lightning Truncheon", "Divine Glaive", "Holy Crystal",
     "Blood Wings", "Calamity Reaper", "Genius Wand", "Enchanted Talisman",
     "Oracle", "Necklace of Durance", "Concentrated Energy",
+    "Glowing Wand", "Ice Queen Wand", "Starlium Scythe", "Feather of Heaven",
+    "Wishing Lantern",
     # Fighter / Assassin
     "Endless Battle", "Bloodlust Axe", "Fleeting Time",
+    "War Axe", "Blade of the Heptaseas", "Thunder Belt",
     # Tank / Defense
     "Dominance Ice", "Antique Cuirass", "Athena's Shield", "Immortality",
     "Blade Armor", "Cursed Helmet",
+    # Support
+    "Flask of the Oasis",
 ]
 
 
