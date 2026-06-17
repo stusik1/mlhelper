@@ -109,6 +109,16 @@
     );
   }
 
+  // ── Hero portrait helper ──────────────────────────────────────────────────
+  function heroAvatarHTML(hero, cls) {
+    const imgs = window.HERO_IMAGES || {};
+    const src  = imgs[hero.name];
+    if (src) {
+      return '<img class="' + cls + '" src="' + src + '" alt="' + hero.name + '" loading="lazy">';
+    }
+    return '<span class="hero-emoji">' + hero.emoji + "</span>";
+  }
+
   // ── Hero grid ─────────────────────────────────────────────────────────────
   function makeGrid(list, onPick) {
     if (list.length === 0) {
@@ -116,7 +126,7 @@
     }
     const cards = list.map(h =>
       '<button class="hero-card ' + roleClass(h.role) + '" data-id="' + h.id + '">' +
-        '<span class="hero-emoji">' + h.emoji + "</span>" +
+        heroAvatarHTML(h, "hero-portrait") +
         '<span class="hero-name">' + h.name + "</span>" +
         '<span class="hero-role">' + h.role + "</span>" +
       "</button>"
@@ -379,13 +389,13 @@
       // Header
       '<div class="matchup-header">' +
         '<div class="matchup-side me ' + roleClass(me.role) + '">' +
-          '<span class="hero-emoji big">' + me.emoji + "</span>" +
+          heroAvatarHTML(me, "hero-portrait big") +
           '<span class="matchup-name">' + me.name + "</span>" +
           '<span class="matchup-role">' + me.role + "</span>" +
         "</div>" +
         '<div class="vs-badge">VS</div>' +
         '<div class="matchup-side enemy ' + roleClass(enemy.role) + '">' +
-          '<span class="hero-emoji big">' + enemy.emoji + "</span>" +
+          heroAvatarHTML(enemy, "hero-portrait big") +
           '<span class="matchup-name">' + enemy.name + "</span>" +
           '<span class="matchup-role">' + enemy.role + "</span>" +
         "</div>" +
@@ -444,7 +454,7 @@
       countersHTML +=
         '<div class="counter ' + roleClass(c.role) + '">' +
           '<button class="counter-head">' +
-            '<span class="hero-emoji">' + c.emoji + "</span>" +
+            heroAvatarHTML(c, "hero-portrait") +
             '<span class="hero-name">' + c.name + "</span>" +
             '<span class="hero-role">' + c.role + "</span>" +
             '<span class="chev">▼</span>' +
@@ -459,7 +469,7 @@
     els.counterContent.innerHTML =
       '<button class="back" id="counter-back">← All heroes</button>' +
       '<div class="detail-header ' + roleClass(h.role) + '">' +
-        '<span class="hero-emoji big">' + h.emoji + "</span>" +
+        heroAvatarHTML(h, "hero-portrait big") +
         '<div><h2>Enemy: ' + h.name + "</h2>" +
           '<span class="hero-role">' + h.role + " · " + (h.difficulty || "Medium") + " to play</span></div>" +
       "</div>" +
