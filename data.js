@@ -1,6 +1,6 @@
 window.MLBB_DATA =
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "version": "1.0",
   "heroes": [
     {
